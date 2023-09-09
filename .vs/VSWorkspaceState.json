@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github\\workflows",
+    "\\assets\\css",
+    "\\assets\\images",
+    "\\assets\\js",
+    "\\_includes",
+    "\\_layouts",
+    "\\_posts",
+    "\\_sass"
+  ],
+  "PreviewInSolutionExplorer": false
+}

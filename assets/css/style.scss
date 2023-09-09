@@ -4,7 +4,7 @@
 @import "main.scss";
 
 #navbar {
-    opacity: 0.95;
+    opacity: 0.65;
 }
 
 .is-active {
@@ -72,14 +72,10 @@ a.navbar-item.is-active {
     .image {
         max-width: 20vmax;
         margin: auto;
-
-        img {
-            border: 0.25rem dotted black;
-        }
     }
 
     a {
-        min-width: 25vmax;
+        min-width: 20vmax;
         margin: 0.5rem;
     }
 }
@@ -233,8 +229,6 @@ a.navbar-item.is-active {
             }
 
             figure {
-                border: 1.5px solid white;
-                border-radius: 50rem;
                 justify-content: center;
                 margin: auto;
                 transition: all 0.25s ease;
