@@ -11,7 +11,7 @@ title: Ken Henderson
 # Description of the Site
 description: Professional Services & Software Operations
 # URL of Image of the Site
-site-image: /assets/images/ken-henderson-revconf.jpg
+site-image: ../assets/images/ken-henderson-revconf.jpg
 # Keywords of the Site
 site-keywords: Business Operations,Operations,Professional Services,Software Operations,Delivery Operations 
 # URL for the Image of custom Favicon
@@ -34,7 +34,7 @@ google-analytics: ""
 # Name of the Author
 author-name: Ken Henderson
 # URL for the Image of the Author
-author-image: /assets/images/ken.png
+author-image: ../assets/images/ken.png
 # 60 Words About the Author
 author-about: I have a passion for end-to-end business operations, and have built and evolved all core processes (lead-to-opportunity, opportunity-to-cash, hire-to-retire, you name it) in companys that range from 3 people to over 115,000 people.....and I love every bit it. Although I spent the better part of my career in professional services, I've grown to enjoy leading both professional services and software development companies. On the "Builder <--> Operator" spectrum, I probably lean towards the builder side, as I very-much enjoy building and finding new ways to optimize. I welcome opportunities to share experiences (and perhaps enjoy sharing a cold beer or cup of coffee) colleagues and leaders alike, but also enjoy giving back and mentoring the next generation.
 
