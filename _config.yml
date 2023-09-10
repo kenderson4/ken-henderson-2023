@@ -27,7 +27,7 @@ linkedin_username:
 github_username:  
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: ../assets/images/ken-henderson-revconf.jpg
+heroimage: "../images/ken-henderson-revconf.jpg"
 # Google Analytics
 google-analytics: ""
 

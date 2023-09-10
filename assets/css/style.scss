@@ -101,7 +101,11 @@ a.navbar-item.is-active {
         background-color: black;
     }
 }
-
+#blog.hero {
+    min-height: 80vh;
+    justify-content: space-evenly;
+    display:block;
+}
 #blog {
     .hero-body {
         padding: 3rem 0.25rem 1rem 0.25rem;
