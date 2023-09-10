@@ -1,7 +1,7 @@
 ---
 title: Org Design for Modern Software Dev Team
 layout: post
-post-image: "/assets/images/people-are-the-focus.png"
+post-image: "https://github.com/kenderson4/ken-henderson-2023/blob/master/assets/images/people-are-the-focus.png"
 description: There's a lot of theory out there as to how to build and structure a software development team. I'm sharing a view (the culmination of my experiences over the past 15 years) which I've recently had the opportunity to test.....and it worked really well! 
 tags:
 - Organization Design
@@ -27,7 +27,7 @@ I was extremely fortunante to have a technically strong partner in this space ([
 ## Step 1 - Let's Organize
 The very first thing I focused on was organization design - ensuring the structure was right and that we had the right people in the right roles. The intial design ot the team was very hierarchial, where each group reported to a line manager and that line manager reported to me.
 
-![Traditional Team Hierarchy](/assets/images/traditional-hierarchy-example.png)
+![Traditional Team Hierarchy](https://github.com/kenderson4/ken-henderson-2023/blob/master/assets/images/traditional-hierarchy-example.png)
 
 When it comes to organization design, there's a dizzying amount of resources out there. Instead of blindly adopting a structure, I took a step back and talked with every line manager and team member individually. It became very clear to me that we had awesome team with a eff-ton of potential, but line managers weren't given the time and remit to curate their teams, as they had to worry about;
 - Building & running sprints - handling ceremonies and ad-hoc spikes
@@ -45,7 +45,7 @@ In years previous to that timeframe I had done a good amount of organization des
 
 So we (at this point I needed to bring the line managers on the journey along with me) decided on a mix of a couple of elements from a matrix model and the spotify model.
 
-![Our New Model](/assets/images/matrixed-software-team-example.png)
+![Our New Model](https://github.com/kenderson4/ken-henderson-2023/blob/master/assets/images/matrixed-software-team-example.png)
 
 ## Core Tenants of the New Model
 - **Communities:** Groups of people with a common passion, led by a "Community Leader". e.g. people with the data community enjoy data based challanges and staying in lock-step with the latest data frameworks and technologies. A critical point here - these **are not** silos that pin people to only work on a specific type of work. It was unanimous across the team that people wanted the ability to continue working across the entire stack, but having a "community of like-minded people (who worked across multiple workstreams) was key in ensuring consistency in our how approached the various disciplines within the team. So community members didn't have to pick-up specific types of tickets, but their insights were incredibly valuable when grooming those tickets with the team, as each community started establishing best-practices and standardized on technologies
