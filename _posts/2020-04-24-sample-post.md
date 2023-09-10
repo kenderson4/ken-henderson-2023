@@ -1,71 +1,65 @@
 ---
-title: Sample Post
+title: Org Design for Modern Software Dev Team
 layout: post
-post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
-description: A sample post to show how the content will look and how will different
-  headlines, quotes and codes will be represented.
+post-image: "/assets/images/People are the Focus.png"
+description: There's a lot of theory out there as to how to build and structure a software development team. I'm sharing a view (the culmination of my experiences over the past 15 years) which I've recently had the opportunity to test.....and it worked really well! 
 tags:
-- sample
-- post
-- test
+- Organization Design
+- Software Development
+- Operations
 ---
 
-This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
-For more information about writing markdown you can checkout the following markdown cheatsheets:
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-* [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
-* [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+I've spent the last 10 years of my careers building and leading team, which has given me many opportunities to experiment with organizational design - trying to find the optimal design for the specific type of team/business.
 
----
+I've played many different operations roles over my career, but in early 2020 I had the opportunuty to join the software side of the business as the Head of Product Software Engineering. At the time there was 3-4 groups of developers located across 3 different geographies. 
 
-# This is the h1 text
-## This is the h2 text
-### This is the h3 text
-#### This is the h4 text
-##### This is the h5 text
-###### This is the h6 text
+>**The Dislaimer:** Below are my observations and a recipe for what worked extremely well as we doubled the size of the team and took the product to the next level, but this will need to be adapted depending on the team/product, and may not be the best solution for everyone.
 
-**Bold Text in the post will look like:**<br>
-**This text is Bold**
+## The Initial Challenges were...
+- The previous few leaders de-valued personal development team and were more dictators than leaders. *There's a blog post coming about Software leadership styles ;-)*
+- Line managers were being pushed so hard to deliver features that they didn't have the time to focus on individual Career Paths. So no one knew where they were going and lacked motivation and incentive.
+- The lack of process and structure of team resulted in very little time to build meaningful features and too much churn/distractions.
+- The technology of the product was aging - an 8 year old monolith of an application that was written in Java. The real callange (related to the first bullet) si that no one was given time & encouragement to innovate. So development was slow & painful.
+- Due to the above elements, the overall engagement score of team was (not sursingly) through the floor.
+ 
+I was extremely fortunante to have a technically strong partner in this space ([Chris Williams](https://www.voodootikigod.com/)), so I didn't need to focus on the technical challanges. **My charter was to address the processes and scale the team by 2X in as short of time as possible.**
 
-**Italic Text in the post will look like:**<br>
-*This text is Italic*
+## Step 1 - Let's Organize
+The very first thing I focused on was organization design - ensuring the structure was right and that we had the right people in the right roles. The intial design ot the team was very hierarchial, where each group reported to a line manager and that line manager reported to me.
 
-> Quotes on your post will look like this
+![Traditional Team Hierarchy](/assets/images/traditional hierarchy example.png)
 
-`Codes on your post will look like this`
+When it comes to organization design, there's a dizzying amount of resources out there. Instead of blindly adopting a structure, I took a step back and talked with every line manager and team member individually. It became very clear to me that we had awesome team with a eff-ton of potential, but line managers weren't given the time and remit to curate their teams, as they had to worry about;
+- Building & running sprints - handling ceremonies and ad-hoc spikes
+- Helping individual team members overcome technical issues
+- Coordinating with Product Managers to ensure the engineering roadmaps were solid
+- Career Paths for thier individual team members
+- Personal development for individual team members
+- Interviewing - which was getting ready to increase as we needed to double the size of the team
 
-**Link in the post will look like:**<br>
-[This is a link](#)
+On top of all that, this happen to be right at the beginning of Covid19. So the needs of the individual team members were high. Many team members were trying to figure out how to work from home - creating ad-hoc spaces with limited equipment. Emtions were high, as everyone had family, friends, and team members getting sick. So the need for line managers to simply spend time talking with people, and maintain a solid connection with thier people was at an all-time high....yet none of them had the time to spend.
 
-**Bullet list in the post will look like:**
-* Item 1
-* Item 2
-* Item 3
-* Item 4
-* Item 5
+>*That's when it hit me - I need to create a structure that breaks up the resonsibility of the line managers, giving specific focus to the product/sprint and specific focus to the people.* 
 
-**Number list in the post will look like:**
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
-5. Item 5
+In years previous to that timeframe I had done a good amount of organization design for professional services teams within companies that had multiple business lines and within multiple regions, and had grown to appreciate a matrixed organizational structure. And of course who can forget the Spotify Squad/Tribe/Chapter/Guild model, which although highly talked about, it was interesting to hear that it was [never really put to use](https://www.jeremiahlee.com/posts/failed-squad-goals/).
 
-**Images in the post will look like:**<br>
-![Test Image](/WhatATheme/assets/images/1280x720%20Placeholder.png)
+So we (at this point I needed to bring the line managers on the journey along with me) decided on a mix of a couple of elements from a matrix model and the spotify model.
 
-**Normal text in the post will look like**<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id finibus nisl. Etiam in hendrerit est. Nulla non erat ac lectus interdum lobortis. Vestibulum at mi ex. Mauris nisl mi, venenatis et feugiat nec, finibus porttitor velit. Suspendisse tincidunt lobortis leo, quis tristique tellus iaculis quis. Donec eleifend pulvinar gravida. Proin non lorem eros. Donec sit amet finibus ex, eget vestibulum nunc. Ut ut enim id purus porttitor tristique. Vivamus tincidunt eleifend hendrerit. Proin metus felis, ultrices vel dui in, porta dapibus dui. Sed sagittis ex vitae dui tristique dignissim. Cras vel leo ipsum.
+![Our New Model](/assets/images/matrixed software team example.png)
 
-Aenean ac neque et risus mattis accumsan. Sed ac tellus molestie, lacinia ante sit amet, convallis felis. Maecenas aliquet lectus nec euismod auctor. Donec finibus pellentesque tortor, ac efficitur metus suscipit non. Proin diam orci, blandit quis malesuada ac, efficitur a nisl. Mauris eleifend consequat blandit. Sed egestas quam et orci gravida, non euismod metus scelerisque. Curabitur venenatis pellentesque erat commodo pharetra. Fusce id ante nec ipsum fringilla auctor. In justo quam, feugiat placerat eleifend dapibus, luctus et quam. Fusce facilisis erat ut odio convallis viverra et id mauris. Sed vehicula tempus consectetur. Aliquam pharetra, purus non egestas tristique, tellus massa fringilla est, id sagittis tellus urna non mauris. Suspendisse fringilla, velit nec blandit facilisis, ligula ante imperdiet est, et placerat magna sem quis tortor.
+## Core Tenants of the New Model
+- **Communities:** Groups of people with a common passion, led by a "Community Leader". e.g. people with the data community enjoy data based challanges and staying in lock-step with the latest data frameworks and technologies. A critical point here - these **are not** silos that pin people to only work on a specific type of work. It was unanimous across the team that people wanted the ability to continue working across the entire stack, but having a "community of like-minded people (who worked across multiple workstreams) was key in ensuring consistency in our how approached the various disciplines within the team. So community members didn't have to pick-up specific types of tickets, but their insights were incredibly valuable when grooming those tickets with the team, as each community started establishing best-practices and standardized on technologies
+- **Workstreams:** These were product focused groups led by a "Product Architect", and so that everyone could be in meetings together they were somewhat grouped by geography.
+- **Product Architects:** They have No line management responsibilities. Rather they stay focused on gluing the team to the product manager. They build and run sprints, help team members overcome technical hurdles, and have an overall responsibility for the health and velocity of the "workstream".
+- **Community Managers:** They have the line management responsibilities for individual team members, ensuring they have everything they need to be successful, from the neccessary remote office set-up to a solid understanding of their career path. Over time Community Managers worked with their teams to set consistent standards and build roadmaps that represented the trajectory of the community. 
 
-Vestibulum vitae fermentum velit, rhoncus egestas orci. Nulla at purus ut orci posuere vulputate. In eget leo diam. In congue in diam nec elementum. Suspendisse fringilla ante nulla, eu tristique orci ultrices eget. Aenean non lorem tellus. Vestibulum tempor metus sit amet tellus feugiat, sit amet consequat lacus ultricies.
+## Keys to Success
+- **It's All About The People:** If executed well, the individual team members have 2 points of suppport and mentorship - a Product Architect that drives thier day-to-day work and a Community manager that's supporting thier growth and career path.
+- **Communication:** With the above in mind, it's absolutely critical that Product Architects and Community Managers stay in lock-step. Otherwise they run the risk of creating a scenario where the individual team member gets pulled in 2 different direction....and the benefits of the matrix break down.
+- **Community Manager Role is a Player/Coach Role:** A key element here is that the Community Manager role is designed to be a player/coach role, generally spending 50% or greater of thier time with their hands on the technology. Which is a welcome aspect of the role by all of the community managers, as it enables them to keep thier skills sharp and get a front-row look at the performance of thier people and any challenges that they may be experiencing.
+- **Individual Challenges:** If a team member is struggling with a specific task, or is just in a rough patch of life, the Product Architect is likely going to be the first one to observe these struggles. The beauty of this org design is they can lift the observations up to the Community Manager and not have to take thier eyes to far of the product/workstream. The Community Manager (being 50/50 player/coach) has the ability to dedicate a portion of their time to come alongside the individual team member.
+- **Community Roadmaps:** After the first month or so of gelling, the communities starting coming up with thier own strategic roadmaps, which was fantastic to see, but the without getting those elements sown into the *product* roadmaps, none of them would get executed. This is where the rubber hits the road on the relationship bewteen the Product Architect and the Community Manager. The Community Manager needed to demonstrate the value of the elements on the *community* roadmap and influence the Product Architects to inject those into the *product* roadmap in the right places. Therein lies the ultimate synergy between product and community!
+- **Matrix Gaurdian:** Full disclosure, I stole this terminology from Amy Kates & Jay R. Galbraith's [*Designing Your Organization: Using the STAR Model to Solve 5 Critical Design Challenges*](https://www.amazon.com/Designing-Your-Organization-Critical-Challenges/dp/0787994944), but it describes the role perfectly. You need someone who is constantly analyzing the intersections of the matrix and has the remit to course-correct where neccessary. Do we have the right meetings and communication happening? Are individuals feeling supported? Is the output of the team quality and at-pace? Given that both the Product Architects and Community Managers reported to myself (Head of Software Engineerin) I took this role on, and spent many hours analyzing the quality of interactions. I used 1-2-1 meetings as opportunities to sow the right seeds for those interactions and explore the root of some of the challenges. 
+- **Scaling Up:** This structure enabled us to quickly spin-up (and down) new workstreams with the same best practices and consistent processes. Additionally, it allowed individuals to change workstreams **without changing line management**. The combination of those two elements meant that we could move very quickly when new needs arose.
 
-Donec imperdiet, lectus eget congue cursus, dolor enim finibus risus, ut molestie lorem tellus non tortor. Donec quam nibh, molestie in dapibus et, efficitur non tortor. Morbi orci tellus, mollis vel mi vitae, auctor lobortis erat. Ut gravida velit eget ligula lacinia, id rhoncus tellus gravida. Maecenas laoreet rutrum consequat. Suspendisse sed nibh dui. Curabitur dictum euismod mollis. Sed egestas libero libero, eu accumsan augue placerat non. Nunc id condimentum orci. Mauris vitae sollicitudin quam.
-
-**Giphy Gifs will look like:**<br>
-<iframe src="https://giphy.com/embed/ZqlvCTNHpqrio" width="480" height="259" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio">via GIPHY</a></p>
-
-**YouTUbe Videos will look like:**<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jTPXwbDtIpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Above is my experience and obseverations along the way. Feel free to reach out to me if you've got questions, thoughts, or just want to grab a beverage and chat!
