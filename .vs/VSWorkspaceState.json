@@ -1,7 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\workflows",
+    "\\assets",
     "\\assets\\css",
     "\\assets\\images",
     "\\assets\\js",
@@ -10,5 +10,6 @@
     "\\_posts",
     "\\_sass"
   ],
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }
