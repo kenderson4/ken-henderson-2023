@@ -13,8 +13,6 @@ I've spent the last 10 years of my career building and leading teams, which has 
 
 I've played many different operations roles over my career, but in early 2020 I had the opportunity to join the software side of the business as the Head of Product Software Engineering. At the time there were 3-4 groups of developers located across 3 different geographies. 
 
->**The Disclaimer:** Below are my observations and a recipe for what worked extremely well as we doubled the size of the team and took the product to the next level, but this will need to be adapted depending on the team/product, and may not be the best solution for everyone.
-
 ## The Initial Challenges were...
 - The established operating model did not afford personal development due to constant firefights.
 - Line managers were being pushed so hard to deliver features that they didn't have the time to focus on individual Career Paths. So no one knew where they were going and lacked motivation and incentive.
