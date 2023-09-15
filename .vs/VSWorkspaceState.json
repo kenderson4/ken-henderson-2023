@@ -5,11 +5,8 @@
     "\\assets\\css",
     "\\assets\\images",
     "\\assets\\js",
-    "\\_includes",
-    "\\_layouts",
-    "\\_posts",
     "\\_sass"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\_sass\\main.scss",
   "PreviewInSolutionExplorer": false
 }

@@ -16,7 +16,7 @@ I've played many different operations roles over my career, but in early 2020 I 
 >**The Disclaimer:** Below are my observations and a recipe for what worked extremely well as we doubled the size of the team and took the product to the next level, but this will need to be adapted depending on the team/product, and may not be the best solution for everyone.
 
 ## The Initial Challenges were...
-- The previous few leaders de-valued personal development time and were more dictators than leaders. *There's a blog post coming about Software leadership styles ;-)*
+- The established operating model did not afford personal development due to constant firefights.
 - Line managers were being pushed so hard to deliver features that they didn't have the time to focus on individual Career Paths. So no one knew where they were going and lacked motivation and incentive.
 - The lack of process and structure of team resulted in very little time to build meaningful features and too much churn/distractions.
 - The technology of the product was aging - an 8 year old monolith of an application that was written in Java. The real challenge (related to the first bullet) is that no one was given time & encouragement to innovate. So development was slow & painful.
