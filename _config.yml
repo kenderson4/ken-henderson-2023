@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://www.kenhenderson.me'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: https://www.kenhenderson.me
+baseurl: ''
 
 # Title of the Site
 title: Ken Henderson
@@ -34,7 +34,7 @@ google-analytics: ""
 # Name of the Author
 author-name: Ken Henderson
 # URL for the Image of the Author
-author-image: "assets/images/ken.png"
+author-image: "/assets/images/ken.png"
 # 60 Words About the Author
 author-about: I have a passion for end-to-end business operations, and have built and evolved all core processes (lead-to-opportunity, opportunity-to-cash, hire-to-retire, you name it) in companys that range from 3 people to over 115,000 people.....and I love every bit it. Although I spent the better part of my career in professional services, I've grown to enjoy leading both professional services and software development companies. On the "Builder <--> Operator" spectrum, I probably lean towards the builder side, as I very-much enjoy building and finding new ways to optimize. I welcome opportunities to share experiences (and perhaps enjoy sharing a cold beer or cup of coffee) colleagues and leaders alike, but also enjoy giving back and mentoring the next generation.
 
