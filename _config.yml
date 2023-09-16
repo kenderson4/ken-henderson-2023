@@ -29,7 +29,7 @@ github_username:
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: "../images/ken-henderson-revconf.jpg"
 # Google Analytics
-google-analytics: ""
+google-analytics: "G-G6MLZWBSXG"
 
 # Name of the Author
 author-name: Ken Henderson
