@@ -12,14 +12,16 @@ tags:
 - Automation
 ---
 
-I spent the majority of my early career working in & leading professional services companies, but in recent years I've had the opportunity to lead a product software development team.....which is a very different game operationally. One of the biggest challenges that we had (which turns out to be a common challenge) is how to track and communicate the roadmap. It seems simple on the surface, but when you factor in 2-4 different squads working on the same product, doubling the size of the team over the course of a year, and a constant shift in priorities due to a various external factors, it gets complicated very quickly. Before diving further into how I approached the challenge, let's align on key terminology. If you're familiar with Software Development terminology, you can probably safely skip the next section.
+I spent the majority of my early career working in & leading professional services companies, but in recent years I've had the opportunity to lead a product software development team.....which is a very different game operationally. One of the biggest challenges that we had (which turns out to be a common challenge) is how to track and communicate the roadmap. It seems simple on the surface, but when you factor in 2-4 different squads working on the same product, doubling the size of the team over the course of a year, and a constant shift in priorities due to a various external factors, it gets complicated very quickly. 
+
+Below outlines the framework I built to address the challenge. **We've been successfully using this for over 3 years, and have made a few iterations along the way.** Before diving further into the framework, let's align on key terminology. If you're familiar with Software Development terminology, you can probably safely skip the next section.
 
 ## Terminology
 - **Squad:** A group of software developers that work together to build/maintain a software product. Our squads contain no more than 10 people, and contain team members from various communities - Front-End, Data, SRE, Cloud, Quality, etc.
 - **Squad Lead:** This is the person responsible for running the squad. More specifically, they maintain the backlog log of activities, help the team overcome technical hurdles, and are overall accountable for the day-to-day activities. Our internal title for this role is "Product Architect", and we've built the traditional "Scrum Master" responsibilities into this role.
-- **Sprint:** The term Sprint is commonly used in the [Scrum Software Development Framework](https://en.wikipedia.org/wiki/Scrum_(software_development)). A sprint is a fixed period of time that a software development quad works on a specific task or set of tasks. Our squads work in 2 week sprints, where we plan what we want to accomplish, execute the plan, demo and retrospect the results, and feed that into the next 2 weeks. 
-- **Features, Epics, Tasks, & Points:** A Feature is something new that we want to bring to the product. Epics align to features, often 1-to-1, but for larger features we may have multiple epics. Each Epic has a number of tasks that need to be done to complete it. These tasks range from front-end, back-end, testing, documentation, etc. Before the sprint begins, the development team gets together to "Groom" the Epic, which includes breaking it down into these smaller tasks and agreeing ` on the 
-- **T-Shirt Size:** Each Epic is given a T-shirt size (S/M/L) when it's first added to the engineering backlog. The squad lead & product manager work together to estimate the appropriate T-Shirt size. It's important to note that this takes place much earlier than the detailed grooming, but by having a T-Shirt size applied, we can apply a more accurate estimate of how much time it's going to consume in the roadmap.
+- **Sprint:** The term Sprint is commonly used in the [Scrum Software Development Framework](https://en.wikipedia.org/wiki/Scrum_(software_development)). A sprint is a fixed period of time that a software development squad works on a specific task or set of tasks. Our squads work in 2 week sprints, where we plan what we want to accomplish, execute the plan, demo and retrospect the results, and feed that into the next 2 weeks. 
+- **Features, Epics, Tasks, & Points:** A Feature is something new that we want to bring to the product. Epics align to features, often 1-to-1, but for larger features we may have multiple epics. Each Epic has a number of tasks that need to be done to complete it. These tasks range from front-end, back-end, testing, documentation, etc. Before the sprint begins, the development team gets together to "Groom" the Epic, which includes breaking it down into these smaller tasks and agreeing on the size (number of "Points") of each task.
+- **T-Shirt Size:** Each Epic is given a T-shirt size (S/M/L) when it's first added to the engineering backlog. The Squad Lead & Product Manager work together to estimate the appropriate T-Shirt size. It's important to note that this takes place much earlier than the detailed grooming, but by having a T-Shirt size applied, we can apply a more accurate estimate of how much time it's going to consume in the roadmap.
 - **Software Development Velocity:** A measure of how fast a squad is delivering value to the product. This is typically based on the volume of "Points" related to tasks, but we'll explore this further in sections below.
 - **Task Classification:** We classify every task as either "Feature" or "Maintenance". This helps us put another lens on where our efforts are going. Equally important, this feeds into an automated way to classify portions of salary costs as a Capital Expenditure. More on this topic in a future blog post!
 
@@ -40,7 +42,7 @@ The end result looks like the following. In the sections below, we'll break each
 ## Current Sprint Resource Planner
 This section was actually added in the second iteration of the framework. The Squad Leads thought it would be helpful to have a quick view that could be populated when they kick-off the Sprint. It became very useful to review this with the entire team - capturing time-off where appropriate and factoring in personal-development time. Capturing this information served 2 key purposes 1.) It gave Squad Leads deeper insight into the time available, which lead to more accurate sprint planning. _Note: our Squad Leads are not the line managers. See [my blog post](https://www.kenhenderson.me/blog/org-design-for-modern-software-dev-team) on how we're structured._ 2.) It automatically calculates the "Member Days" which are needed at the conclusion of the Sprint. Below is an example view of how the Resource Planner component is used.
 
-![Current Sprint Resource Planner]({{BASE_PATH}}/assets/images/roadmap-blog/capacity-planner.png)
+[![Current Sprint Resource Planner]({{BASE_PATH}}/assets/images/roadmap-blog/capacity-planner.png)]({{BASE_PATH}}/assets/images/roadmap-blog/capacity-planner.png)
 
 ## Sprint History 
 This section captures key metadata about the sprint, and is typically completed by the Squad Lead at the completion of the Sprint. We track the following elements;
@@ -57,13 +59,13 @@ After filling in the above, there's 2 key outputs that will automatically be cal
 - The _ROM Utilization_ of the team, which is simply the "Total Number of Working Days" divided by the "# of Team Members" times 10 (days in the Sprint)
 Below is an example view of how this section looks.
 
-![Sprint History]({{BASE_PATH}}/assets/images/roadmap-blog/sprint-history.png)
+[![Sprint History]({{BASE_PATH}}/assets/images/roadmap-blog/sprint-history.png)]({{BASE_PATH}}/assets/images/roadmap-blog/sprint-history.png)
 
 Once you start collecting the Sprint History data, it's fairly easy to throw a couple of charts on the page. Below are the 2 that we've found to be the most helpful. As the team "gels" together, you'll be looking closely at velocity. The expectation is that they'll be able to complete more Points per Sprint with the same amount of Members/"Number of Working Days". In the illustrations above and below, you can see that starting to occur from Aug 17th forward.
 
 
-![Velocity Trends]({{BASE_PATH}}/assets/images/roadmap-blog/velocity-trend-1.png)
-![Velocity Trends]({{BASE_PATH}}/assets/images/roadmap-blog/velocity-trend-2.png)
+[![Velocity Trends]({{BASE_PATH}}/assets/images/roadmap-blog/velocity-trend-1.png)]({{BASE_PATH}}/assets/images/roadmap-blog/velocity-trend-1.png)
+[![Velocity Trends]({{BASE_PATH}}/assets/images/roadmap-blog/velocity-trend-2.png)]({{BASE_PATH}}/assets/images/roadmap-blog/velocity-trend-2.png)
 
 ## Completed Epics Analytics
 This section exposes all of the Epics completed by the Squad, the originally estimated T-Shirt size, and the total number of Points completed as part of each Epic. The ultimate goal of this section is to arrive at what the average number of Points is for a specific T-Shirt size. These are fed directly into the Automated Roadmap, aligning an estimate of Points to early-stage Epics in the roadmap. A few key elements to highlight here;
@@ -71,14 +73,14 @@ This section exposes all of the Epics completed by the Squad, the originally est
 - Overtime you'll have a more statistically rich dataset to lean on. So when I review the roadmap with the Squad Leads, we review these numbers to make sure there's alignment between the Model Values and the averages.
 - **For Multi-Squad Teams:** We've found that each Squad points tasks slightly differently. So a "Large" T-Shirt in one Squad might be worth 100 points, where in another Squad it might be 150 points. This framework enables that level of flexibility per Squad.
 
-![Completed Epics Analytics]({{BASE_PATH}}/assets/images/roadmap-blog/tshirt-sizing.png)
+[![Completed Epics Analytics]({{BASE_PATH}}/assets/images/roadmap-blog/tshirt-sizing.png)]({{BASE_PATH}}/assets/images/roadmap-blog/tshirt-sizing.png)
 
 ## 12-Month Resource Projections
 This section is where we begin to look forward and project what we think the team size will be. That said, I also encourage the Squad Leads to keep the past 2-4 months on the roadmap - illustrating any potential gaps between what the framework estimated vs what the team actually accomplished. The headcount is mashed together with the number of working days in the month, regional holidays (which are calculated from an external source), and the _Normalized Velocity_ (which is ideally linked directly to the Sprint History section). The output of this is a calculation of the number of Points that the Squad should be able to complete over the course of the month.
 
 A quick note on Utilization - We give the Squad Leads the ability to adjust a Utilization number when entering headcount, accounting for various elements like onboarding, personal development, etc. This is factored into the total number of achievable Points for that month, and at the bottom of the table we expose an overall Utilization (which includes holidays) that correlates to the ROM Utilization that is calculated in the Sprint History section.
 
-![12-Month Resource Projections]({{BASE_PATH}}/assets/images/roadmap-blog/resource-projection.png)
+[![12-Month Resource Projections]({{BASE_PATH}}/assets/images/roadmap-blog/resource-projection.png)]({{BASE_PATH}}/assets/images/roadmap-blog/resource-projection.png)
 
 ## Fully Automated Roadmap
 Ok, now we begin to pull it all together! This section is broken into 2 areas;
@@ -96,10 +98,10 @@ Ok, now we begin to pull it all together! This section is broken into 2 areas;
 
 Below is the end result of what you'll get from everything above.
 
-![Fully Automated Roadmap]({{BASE_PATH}}/assets/images/roadmap-blog/automated-roadmap.png)
+[![Fully Automated Roadmap]({{BASE_PATH}}/assets/images/roadmap-blog/automated-roadmap.png)]({{BASE_PATH}}/assets/images/roadmap-blog/automated-roadmap.png)
 
 Above has a good amount of details, and we find it very helpful when collaborating within the engineering team and with Product Managers. If you're looking for something a bit less _spreadsheet-like_ to communicate with the rest of the world, then no worries....Google has you covered. You can very easily use their _Timeline View_ chart to create something similar to below. I added a lens of "Components" here, which we've used both Jira _Versions_ and _Components_ for. Just like everything else, those can be automated into the view.
 
 If you'd like access to the framework, templates, or just want to chat, please feel free to reach out!
 
-![Google Timeline View]({{BASE_PATH}}/assets/images/roadmap-blog/google-timeline.png)
+[![Google Timeline View]({{BASE_PATH}}/assets/images/roadmap-blog/google-timeline.png)]({{BASE_PATH}}/assets/images/roadmap-blog/google-timeline.png)
