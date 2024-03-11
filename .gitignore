@@ -70,3 +70,6 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 # End of https://www.toptal.com/developers/gitignore/api/jekyll,ruby
+/.vs/ken-henderson-2023/FileContentIndex/381c1c0b-05b2-4903-ab7b-7bb7745d758c.vsidx
+/.vs/ken-henderson-2023/FileContentIndex/68a4f440-8af4-4b10-9351-7166181ce367.vsidx
+/.vs/ken-henderson-2023/FileContentIndex/09ce398a-df07-4118-8d67-f0e2f1cfd51e.vsidx
